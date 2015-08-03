@@ -1,0 +1,20 @@
+<script type="text/javascript" src="sadaJs.1.0.1.js"></script>
+<script type="text/javascript">
+//Since this update of version 1.0.1 we don't need to initialized the window event
+//We just can use the shortcut key '$$'
+$$(document).ready(function() {
+	$$("#box_1").text("This is Box 1");
+	$$("#box_2").text("This is Box 2");
+	$$("#box_2").css("color","#333");
+	$$("#box_2").css({"font-weight":"bold","padding":"5px","width":"200px","background-color":"#69C"});
+	$$(".span_1").text("This is Span 1");
+	$$("p.header").text("This is the Header");
+	$$(".header").css("color","#ff0000");
+});
+</script>
+<body>
+	<div id="box_1"></div>
+    <div id="box_2"></div>
+    <div class="span_1"></div>
+    <p class="header"></p>
+</body>
